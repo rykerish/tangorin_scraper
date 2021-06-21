@@ -1,6 +1,6 @@
-# Tangorin scraper for Anki flashcards
+# [Tangorin](https://tangorin.com/) scraper for Anki flashcards
 
-First of all, a quick disclaimer: this script doesn't actually create Anki flashcards. It create a `my_kanji.tsv` file which you can then import into Anki.
+First of all, a quick disclaimer: this script doesn't actually create Anki flashcards. It creates a `my_kanji.tsv` file which you can then import into Anki.
 
 You are free to modify and share the script as you wish (see [license](https://github.com/rykerish/tangorin_scraper/blob/main/LICENSE)). However, note that if you change it, the Anki template (`Template.apkg`) will probably not be valid anymore.
 
