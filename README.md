@@ -14,19 +14,25 @@ Import `Template.apkg` into Anki to have the card template. The code will not wo
 
 This script requires [Cairo](https://www.cairographics.org/download/) to function. Install it using your favourite package manager, or from the previous link (not tested on Windows, may or may not work).
 
-Finally, it reads the list of kanji to add from the file `new_kanjis.txt`, which contains **1 kanji per line** (as in the example). For now, this file must be written by hand.
+Finally, it reads the list of kanji to add from the file `new_kanjis.txt`, which contains **1 kanji per line** (as in the example). For now, this file can be written by hand or from a [Tangorin vocabulary list](https://tangorin.com/vocabulary) using the `kanji_from_tangorin_voc_list.py` script.
 
 ### On Linux / OS X
 
 Run `pip install -r requirements.txt`
 
+Optional: run `python kanji_from_tangorin_voc_list.py <vocabulary_list>`
+
 ### On Windows 10
 
 Run `py -m pip install -r requirements.txt`
 
+Optional: run `py kanji_from_tangorin_voc_list.py <vocabulary_list>`
+
 ### On Windows < 10
 
 Run `python3 -m pip install -r requirements.txt`
+
+Optional: run `python3 kanji_from_tangorin_voc_list.py <vocabulary_list>`
 
 ## Running
 
